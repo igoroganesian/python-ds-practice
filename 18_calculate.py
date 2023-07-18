@@ -34,7 +34,7 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
         operation != 'divide':
         raise ValueError('Invalid Operation')
 
-
+#### if makeInt = true, add some other conditionals
     if operation == 'add':
         return f"{message} {a + b}"
     elif operation == 'subtract':

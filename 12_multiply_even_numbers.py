@@ -12,6 +12,7 @@ def multiply_even_numbers(nums):
         >>> multiply_even_numbers([1, 3, 5])
         1
     """
+### could this be done in one line?
 
     product = 1
 
